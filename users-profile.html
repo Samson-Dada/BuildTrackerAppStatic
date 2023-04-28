@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
+    <title>Dashboard - NiceAdmin Bootstrap Template</title>
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
+
+    <!-- Favicons -->
+    <link href="img/favicon.png" rel="icon" />
+    <link href="img/apple-touch-icon.png" rel="apple-touch-icon" />
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+      rel="stylesheet"
+    />
+
+    <!-- Vendor CSS Files -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
+
+    <!-- Template Main CSS File -->
+    <link href="css/style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+
+  <body>
+    <!-- ======= Header ======= -->
+    <header id="header" class="header fixed-top d-flex align-items-center">
+      <div class="d-flex align-items-center justify-content-between">
+        <a href="index.html" class="logo d-flex align-items-center">
+          <img src="img/logo.png" alt="" />
+          <span class="d-none d-lg-block">NiceAdmin</span>
+        </a>
+        <i class="bi bi-list toggle-sidebar-btn"></i>
+      </div>
+      <!-- End Logo -->
+      <nav class="header-nav ms-auto">
+        <ul class="d-flex align-items-center">
+          <li class="nav-item d-block d-lg-none">
+            <a class="nav-link nav-icon search-bar-toggle" href="#">
+              <i class="bi bi-search"></i>
+            </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link nav-icon" href="#" data-bs-toggle="dropdown">
+              <i class="bi bi-bell"></i>
+              <span class="badge bg-primary badge-number">2</span> </a
+            ><!-- End Notification Icon -->
+
+            <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow notifications">
+              <li class="dropdown-header">
+                You have 4 new notifications
+                <a href="#"><span class="badge rounded-pill bg-primary p-2 ms-2">View all</span></a>
+              </li>
+              <li>
+                <hr class="dropdown-divider" />
+              </li>
+
+              <li class="notification-item">
+                <i class="bi bi-exclamation-circle text-warning"></i>
+                <div>
+                  <h4>Lorem Ipsum</h4>
+                  <p>Quae dolorem earum veritatis oditseno</p>
+                  <p>30 min. ago</p>
+                </div>
+              </li>
+
+              <li>
+                <hr class="dropdown-divider" />
+              </li>
+
+              <li class="notification-item">
+                <i class="bi bi-check-circle text-success"></i>
+                <div>
+                  <h4>Sit rerum fuga</h4>
+                  <p>Quae dolorem earum veritatis oditseno</p>
+                  <p>2 hrs. ago</p>
+                </div>
+              </li>
+              <li>
+                <hr class="dropdown-divider" />
+              </li>
+              <li class="dropdown-footer">
+                <a href="#">Show all notifications</a>
+              </li>
+            </ul>
+            <!-- End Notification Dropdown Items -->
+          </li>
+
+          <li class="nav-item dropdown pe-3">
+            <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown">
+              <img src="img/profile-img.jpg" alt="Profile" class="rounded-circle" />
+              <span class="d-none d-md-block dropdown-toggle ps-2">K. Anderson</span> </a
+            ><!-- End Profile Iamge Icon -->
+
+            <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
+              <li class="dropdown-header">
+                <h6>Kevin Anderson</h6>
+                <span>Web Designer</span>
+              </li>
+              <li>
+                <hr class="dropdown-divider" />
+              </li>
+
+              <li>
+                <a class="dropdown-item d-flex align-items-center" href="users-profile.html">
+                  <i class="bi bi-person"></i>
+                  <span>My Profile</span>
+                </a>
+              </li>
+              <li>
+                <hr class="dropdown-divider" />
+              </li>
+
+              <li>
+                <a class="dropdown-item d-flex align-items-center" href="users-profile.html">
+                  <i class="bi bi-gear"></i>
+                  <span>Account Settings</span>
+                </a>
+              </li>
+              <li>
+                <hr class="dropdown-divider" />
+              </li>
+
+              <li>
+                <a class="dropdown-item d-flex align-items-center" href="pages-faq.html">
+                  <i class="bi bi-question-circle"></i>
+                  <span>Need Help?</span>
+                </a>
+              </li>
+              <li>
+                <hr class="dropdown-divider" />
+              </li>
+
+              <li>
+                <a class="dropdown-item d-flex align-items-center" href="#">
+                  <i class="bi bi-box-arrow-right"></i>
+                  <span>Sign Out</span>
+                </a>
+              </li>
+            </ul>
+            <!-- End Profile Dropdown Items -->
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!-- End Header -->
+
+    <aside id="sidebar" class="sidebar">
+      <ul class="sidebar-nav" id="sidebar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">
+            <i class="bi bi-grid"></i>
+            <span>Dashboard</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="track-build.html"> <i class="bi bi-menu-button-wide"></i>Track Builds</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="report-blocker.html"> <i class="bi bi-menu-button-wide"></i>Report Blocker</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="report-history.html" href="#"> <i class="bi bi-layout-text-window-reverse"></i>Report History </a>
+          <ul class="nav-content"></ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="user-profile.html">
+            <i class="bi bi-person"></i>
+            Profile
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="users-profile.html">
+            <i class="bi bi-people-fill"></i>
+            Connect Other Teams
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link collapsed" href="pages-register.html">
+            <i class="bi bi-card-list"></i>
+            <span>Register</span>
+          </a>
+        </li>
+      </ul>
+    </aside>
+
+    <main>
+      <div class="container-sm">
+        <div class="card">
+          <div class="card-header">
+            <h6>Product Development Team</h6>
+          </div>
+          <div class="card-body">
+            <table class="table align-items-center mb-0">
+              <thead>
+                <tr>
+                  <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Team</th>
+                  <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Function</th>
+                  <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Status</th>
+                  <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Task</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    <div class="myflex d-flex justify-content-center px-2 py-1">
+                      <div>
+                        <img src="img/team-2.jpg" class="avatar avatar-sm me-3" alt="user1" />
+                      </div>
+                      <div class="d-flex flex-column justify-content-center">
+                        <h6 class="mb-0 text-sm">John Michael</h6>
+                        <p class="text-xs text-secondary mb-0">john@creative-tim.com</p>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <p class="text-xs font-weight-bold mb-0">Agile Master</p>
+                    <p class="text-xs text-secondary mb-0">Project Manager</p>
+                  </td>
+                  <td class="align-middle text-center text-sm">
+                    <span class="badge badge-sm bg-gradient-success">Online</span>
+                  </td>
+                  <td class="align-middle text-center">
+                    <span class="text-secondary text-xs font-weight-bold">Product Manager</span>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="d-flex justify-content-center px-2 py-1">
+                      <div>
+                        <img src="img/team-3.jpg" class="avatar avatar-sm me-3" alt="user2" />
+                      </div>
+                      <div class="d-flex flex-column justify-content-center">
+                        <h6 class="mb-0 text-sm">Alexa Liras</h6>
+                        <p class="text-xs text-secondary mb-0">alexa@creative-tim.com</p>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <p class="text-xs font-weight-bold mb-0">Agile Teeam</p>
+                    <p class="text-xs text-secondary mb-0">Software Engineer</p>
+                  </td>
+                  <td class="align-middle text-center text-sm">
+                    <span class="badge badge-sm bg-gradient-secondary">Offline</span>
+                  </td>
+                  <td class="align-middle text-center">
+                    <span class="text-secondary text-xs font-weight-bold">WebAPIs (ASP.NET Core)</span>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="d-flex justify-content-center px-2 py-1">
+                      <div>
+                        <img src="img/john-deo.jpg" class="avatar avatar-sm me-3" alt="user3" />
+                      </div>
+                      <div class="d-flex flex-column justify-content-center">
+                        <h6 class="mb-0 text-sm">Laurent Perrier</h6>
+                        <p class="text-xs text-secondary mb-0">laurent@creative-tim.com</p>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <p class="text-xs font-weight-bold mb-0">Agile Teeam</p>
+                    <p class="text-xs text-secondary mb-0">DevOps Engineer</p>
+                  </td>
+                  <td class="align-middle text-center text-sm">
+                    <span class="badge badge-sm bg-gradient-warning">Offline</span>
+                  </td>
+                  <td class="align-middle text-center">
+                    <span class="text-secondary text-xs font-weight-bold">DevOps(CI/CD, Images)</span>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="d-flex justify-content-center px-2 py-1">
+                      <div>
+                        <img src="img/team-3.jpg" class="avatar avatar-sm me-3" alt="user4" />
+                      </div>
+                      <div class="d-flex flex-column justify-content-center">
+                        <h6 class="mb-0 text-sm">Michael Levi</h6>
+                        <p class="text-xs text-secondary mb-0">michael@creative-tim.com</p>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <p class="text-xs font-weight-bold mb-0">Agile Teeam</p>
+                    <p class="text-xs text-secondary mb-0">Product Desinger</p>
+                  </td>
+                  <td class="align-middle text-center text-sm">
+                    <span class="badge badge-sm bg-gradient-success">Online</span>
+                  </td>
+                  <td class="align-middle text-center">
+                    <span class="text-secondary text-xs font-weight-bold">Design UI & UX</span>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="d-flex justify-content-center px-2 py-1">
+                      <div>
+                        <img src="img/john-deo.jpg" class="avatar avatar-sm me-3" alt="user5" />
+                      </div>
+                      <div class="d-flex flex-column justify-content-center">
+                        <h6 class="mb-0 text-sm">Richard Gran</h6>
+                        <p class="text-xs text-secondary mb-0">richard@creative-tim.com</p>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <p class="text-xs font-weight-bold mb-0">Agile Teeam</p>
+                    <p class="text-xs text-secondary mb-0">Software Engineer</p>
+                  </td>
+                  <td class="align-middle text-center text-sm">
+                    <span class="badge badge-sm bg-gradient-secondary">Offline</span>
+                  </td>
+                  <td class="align-middle text-center">
+                    <span class="text-secondary text-xs font-weight-bold">Client Side(React)</span>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      <section class="role__section container">
+        <div class="role__container"></div>
+      </section>
+    </main>
+  </body>
+</html>
